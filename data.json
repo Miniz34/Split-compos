@@ -1,0 +1,553 @@
+[
+  {
+    "id": 1,
+    "mainChar": {
+      "name": "Miniz",
+      "class": "Mage",
+      "role": "RANGED_DPS",
+      "token": "Mystic",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    },
+    "altChar": {
+      "name": "BlackMario",
+      "class": "Mage",
+      "role": "RANGED_DPS",
+      "token": "Mystic",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 2,
+    "mainChar": {
+      "name": "Pydd",
+      "class": "Paladin",
+      "role": "HEALER",
+      "token": "Venerated",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    },
+    "altChar": {
+      "name": "PyddMonk",
+      "class": "Monk",
+      "role": "HEALER",
+      "token": "Zenith",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 3,
+    "mainChar": {
+      "name": "Yelenaxz",
+      "class": "Priest",
+      "role": "HEALER",
+      "token": "Venerated",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    },
+    "altChar": {
+      "name": "Yelenaxzjr",
+      "class": "Priest",
+      "role": "HEALER",
+      "token": "Venerated",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 4,
+    "mainChar": {
+      "name": "Ithara",
+      "class": "Paladin",
+      "role": "MELEE_DPS",
+      "token": "Venerated",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    },
+    "altChar": {
+      "name": "Soignaire",
+      "class": "Priest",
+      "role": "RANGED_DPS",
+      "token": "Venerated",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 5,
+    "mainChar": {
+      "name": "Cerise",
+      "class": "Evoker",
+      "role": "RANGED_DPS",
+      "token": "Zenith",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    },
+    "altChar": {
+      "name": "cerisewawa",
+      "class": "Warrior",
+      "role": "MELEE_DPS",
+      "token": "Mystic",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 6,
+    "mainChar": {
+      "name": "Seele",
+      "class": "DH",
+      "role": "MELEE_DPS",
+      "token": "Dreadful",
+      "setPieces": {
+        "helm": true,
+        "shoulders": true,
+        "chest": true,
+        "hands": false,
+        "legs": false
+      }
+    },
+    "altChar": {
+      "name": "SelleDk",
+      "class": "DK",
+      "role": "MELEE_DPS",
+      "token": "Dreadful",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 7,
+    "mainChar": {
+      "name": "Lumonk",
+      "class": "Monk",
+      "role": "TANK",
+      "token": "Zenith",
+      "setPieces": {
+        "helm": true,
+        "shoulders": true,
+        "chest": true,
+        "hands": true,
+        "legs": true
+      }
+    },
+    "altChar": {
+      "name": "Lumilourson",
+      "class": "Druid",
+      "role": "TANK",
+      "token": "Mystic",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 8,
+    "mainChar": {
+      "name": "Gaigail",
+      "class": "Paladin",
+      "role": "TANK",
+      "token": "Venerated",
+      "setPieces": {
+        "helm": true,
+        "shoulders": true,
+        "chest": true,
+        "hands": true,
+        "legs": true
+      }
+    },
+    "altChar": {
+      "name": "roseMan",
+      "class": "DK",
+      "role": "TANK",
+      "token": "Dreadful",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 9,
+    "mainChar": {
+      "name": "Skyrix",
+      "class": "Monk",
+      "role": "HEALER",
+      "token": "Zenith",
+      "setPieces": {
+        "helm": true,
+        "shoulders": true,
+        "chest": true,
+        "hands": true,
+        "legs": true
+      }
+    },
+    "altChar": {
+      "name": "Skypal",
+      "class": "Paladin",
+      "role": "HEALER",
+      "token": "Venerated",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 10,
+    "mainChar": {
+      "name": "Namo",
+      "class": "Evoker",
+      "role": "RANGED_DPS",
+      "token": "Zenith",
+      "setPieces": {
+        "helm": true,
+        "shoulders": true,
+        "chest": true,
+        "hands": true,
+        "legs": true
+      }
+    },
+    "altChar": {
+      "name": "Namoux",
+      "class": "Shaman",
+      "role": "RANGED_DPS",
+      "token": "Venerated",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 11,
+    "mainChar": {
+      "name": "Maeltro",
+      "class": "Hunter",
+      "role": "RANGED_DPS",
+      "token": "Mystic",
+      "setPieces": {
+        "helm": true,
+        "shoulders": true,
+        "chest": true,
+        "hands": true,
+        "legs": true
+      }
+    },
+    "altChar": {
+      "name": "Maelstra",
+      "class": "Hunter",
+      "role": "RANGED_DPS",
+      "token": "Mystic",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 12,
+    "mainChar": {
+      "name": "Zhoop",
+      "class": "Warlock",
+      "role": "RANGED_DPS",
+      "token": "Dreadful",
+      "setPieces": {
+        "helm": true,
+        "shoulders": true,
+        "chest": true,
+        "hands": true,
+        "legs": true
+      }
+    },
+    "altChar": {
+      "name": "ZhoopEvo",
+      "class": "Evoker",
+      "role": "RANGED_DPS",
+      "token": "Zenith",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 13,
+    "mainChar": {
+      "name": "Nifita",
+      "class": "Priest",
+      "role": "HEALER",
+      "token": "Venerated",
+      "setPieces": {
+        "helm": true,
+        "shoulders": true,
+        "chest": true,
+        "hands": true,
+        "legs": true
+      }
+    },
+    "altChar": {
+      "name": "Nafeta",
+      "class": "Evoker",
+      "role": "HEALER",
+      "token": "Zenith",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 14,
+    "mainChar": {
+      "name": "Snockie",
+      "class": "Rogue",
+      "role": "MELEE_DPS",
+      "token": "Zenith",
+      "setPieces": {
+        "helm": true,
+        "shoulders": true,
+        "chest": true,
+        "hands": true,
+        "legs": true
+      }
+    },
+    "altChar": {
+      "name": "Snockdh",
+      "class": "DH",
+      "role": "MELEE_DPS",
+      "token": "Dreadful",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 15,
+    "mainChar": {
+      "name": "Maeltroaze",
+      "class": "Hunter",
+      "role": "RANGED_DPS",
+      "token": "Mystic",
+      "setPieces": {
+        "helm": true,
+        "shoulders": true,
+        "chest": true,
+        "hands": true,
+        "legs": true
+      }
+    },
+    "altChar": {
+      "name": "Maelstraaze",
+      "class": "Hunter",
+      "role": "RANGED_DPS",
+      "token": "Mystic",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 16,
+    "mainChar": {
+      "name": "Maeltroeaze",
+      "class": "Hunter",
+      "role": "RANGED_DPS",
+      "token": "Mystic",
+      "setPieces": {
+        "helm": true,
+        "shoulders": true,
+        "chest": true,
+        "hands": true,
+        "legs": true
+      }
+    },
+    "altChar": {
+      "name": "Maelstrhhh",
+      "class": "Hunter",
+      "role": "RANGED_DPS",
+      "token": "Mystic",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 17,
+    "mainChar": {
+      "name": "Mael",
+      "class": "Hunter",
+      "role": "RANGED_DPS",
+      "token": "Mystic",
+      "setPieces": {
+        "helm": true,
+        "shoulders": true,
+        "chest": true,
+        "hands": true,
+        "legs": true
+      }
+    },
+    "altChar": {
+      "name": "Maera",
+      "class": "Hunter",
+      "role": "RANGED_DPS",
+      "token": "Mystic",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 18,
+    "mainChar": {
+      "name": "GARARDo",
+      "class": "Hunter",
+      "role": "RANGED_DPS",
+      "token": "Mystic",
+      "setPieces": {
+        "helm": true,
+        "shoulders": true,
+        "chest": true,
+        "hands": true,
+        "legs": true
+      }
+    },
+    "altChar": {
+      "name": "aaaaaaaaaaaaaaaaaaaaaa",
+      "class": "Hunter",
+      "role": "RANGED_DPS",
+      "token": "Mystic",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  },
+  {
+    "id": 19,
+    "mainChar": {
+      "name": "quoi",
+      "class": "Hunter",
+      "role": "RANGED_DPS",
+      "token": "Mystic",
+      "setPieces": {
+        "helm": true,
+        "shoulders": true,
+        "chest": true,
+        "hands": true,
+        "legs": true
+      }
+    },
+    "altChar": {
+      "name": "coubeh",
+      "class": "Hunter",
+      "role": "RANGED_DPS",
+      "token": "Mystic",
+      "setPieces": {
+        "helm": false,
+        "shoulders": false,
+        "chest": false,
+        "hands": false,
+        "legs": false
+      }
+    }
+  }
+]
