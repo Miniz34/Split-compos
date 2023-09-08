@@ -1,0 +1,34 @@
+.raid-card-wrapper {
+  height: 50%;
+  background-color: #1e1e1e;
+  width: 100%;
+}
+
+.raid-card-wrapper-2 {
+  margin-top: 25px;
+}
+
+.raid-card-names {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.token-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.token-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.missing-buff {
+  margin: 4px;
+  color: red;
+}

@@ -1,0 +1,58 @@
+// raidOneSlice.js
+import { createSlice } from "@reduxjs/toolkit";
+
+const raidOneSlice = createSlice({
+  name: "raidOne",
+  initialState: {
+    players: [],
+  },
+  reducers: {
+    // Define reducers specific to RaidOne
+    addPlayer: (state, action) => {
+      // @ts-ignore
+      const { id, mainChar, playerClass } = action.payload;
+
+      // @ts-ignore
+      state.players.push(action.payload);
+      // state.players.sort((a, b) => a.id - b.id);
+      state.players.sort((a, b) => {
+        const roleOrder = {
+          TANK: 1,
+          HEALER: 2,
+          RANGED_DPS: 3,
+          MELEE_DPS: 4,
+        };
+        // @ts-ignore
+        return roleOrder[a.role] - roleOrder[b.role];
+      });
+    },
+    removePlayer: (state, action) => {
+      const playerIdToRemove = action.payload;
+      state.players = state.players.filter(
+        // @ts-ignore
+        (player) => player.id !== playerIdToRemove
+      );
+    },
+    replaceMainWithAlt: (state, action) => {
+      const { playerId } = action.payload;
+      const playerIndex = state.players.findIndex(
+        // @ts-ignore
+        (player) => player.id === playerId
+      );
+
+      if (playerIndex !== -1) {
+        const playerToReplace = state.players[playerIndex];
+        const updatedPlayer = {
+          // @ts-ignore
+          ...playerToReplace,
+          // @ts-ignore
+          mainChar: playerToReplace.altChar, // Replace mainChar with altChar
+        };
+        // @ts-ignore
+        state.players.splice(playerIndex, 1, updatedPlayer);
+      }
+    },
+  },
+});
+
+export const { actions, reducer } = raidOneSlice;

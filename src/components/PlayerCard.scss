@@ -1,0 +1,192 @@
+@import "../utils/styles/style.scss";
+
+.container {
+  display: flex; /* Display children side by side */
+  color: white;
+  width: 100%;
+}
+
+.player-cards {
+  width: 82%; /* Set the width to 70% of the screen width */
+  margin-right: 20px; /* Add margin to the right for spacing */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  // height: 150px;
+
+  /* Display PlayerCards vertically */
+  /* Add any additional styling for player-cards here */
+
+  .player-card {
+    background-color: #1e1e1e;
+    margin-bottom: 20px;
+    margin-right: 5px; /* Adjust spacing between PlayerCards */
+    display: flex;
+    // height: 150px;
+    height: 200px;
+    // border: solid red 1px;
+
+    /* Add any additional styling for individual player-cards here */
+  }
+}
+.additional-component {
+  width: calc(18% - 20px);
+  /* Set the width to 30% minus 20px for spacing */
+  /* Styling for the additional component */
+  /* You can adjust its size, spacing, etc. here */
+}
+
+/* Styling for PlayerCard component */
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  // height: 250px;
+
+  /* Display cards vertically */
+  /* Add any additional styling you need here */
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    // height: 150px;
+    /* Add any additional styling for the card container here */
+
+    .main-text {
+      /* Styling for main text */
+      /* You can adjust font size, color, etc. here */
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    .set-list {
+      display: flex;
+      flex-direction: row;
+      gap: 25px;
+    }
+  }
+}
+
+.main-container,
+.alt-container {
+  // border: solid green 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.token-green {
+  color: green;
+}
+
+.token-red {
+  color: red;
+}
+
+.class-color-Mage {
+  color: $mage;
+}
+.class-color-Priest {
+  color: $priest;
+}
+
+.class-color-Paladin {
+  color: $paladin;
+}
+
+.class-color-Shaman {
+  color: $shaman;
+}
+
+.class-color-DH {
+  color: $dh;
+}
+
+.class-color-DK {
+  color: $dk;
+}
+
+.class-color-Druid {
+  color: $druid;
+}
+
+.class-color-Warlock {
+  color: $warlock;
+}
+.class-color-Evoker {
+  color: $evoker;
+}
+
+.class-color-Monk {
+  color: $monk;
+}
+
+.class-color-Hunter {
+  color: $hunter;
+}
+
+.class-color-Rogue {
+  color: $rogue;
+}
+
+.class-color-Warrior {
+  color: $warrior;
+}
+
+.player-card-Mage {
+  border-top: solid 6px $mage;
+}
+.player-card-Priest {
+  border-top: solid 6px $priest;
+}
+
+.player-card-Paladin {
+  border-top: solid 6px $paladin;
+}
+
+.player-card-Shaman {
+  border-top: solid 6px $shaman;
+}
+
+.player-card-DH {
+  border-top: solid 6px $dh;
+}
+
+.player-card-DK {
+  border-top: solid 6px $dk;
+}
+
+.player-card-Druid {
+  border-top: solid 6px $druid;
+}
+
+.player-card-Warlock {
+  border-top: solid 6px $warlock;
+}
+.player-card-Evoker {
+  border-top: solid 6px $evoker;
+}
+
+.player-card-Monk {
+  border-top: solid 6px $monk;
+}
+
+.player-card-Hunter {
+  border-top: solid 6px $hunter;
+}
+
+.player-card-Rogue {
+  border-top: solid 6px $rogue;
+}
+
+.player-card-Warrior {
+  border-top: solid 6px $warrior;
+}
+
+.button-in-raid {
+  color: green;
+}
