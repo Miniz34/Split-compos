@@ -3,6 +3,7 @@ import PlayerCard from "../components/PlayerCard";
 import RaidRecap from "../layout/RaidRecap";
 import "../components/PlayerCard.scss";
 import "./Home.scss";
+import PLAYER_API from "../utils/API";
 
 export interface Player {
   id: number;
@@ -40,7 +41,9 @@ function Home() {
     // Fetch the data when the component mounts
     async function fetchData() {
       try {
-        const response = await fetch("/data.json");
+        const response = await fetch(
+          window.location.origin + "/Split-compos/data.json"
+        );
         const data = await response.json();
         setPlayers(data); // Update the players state with the fetched data
       } catch (error) {
@@ -73,6 +76,16 @@ function Home() {
     groupedPlayers[role].push(player);
   });
 
+  const getPlayers = async () => {
+    const response = await PLAYER_API.findAll();
+    if (response) {
+      console.log("REPONSE ICI");
+      console.log(response);
+    } else {
+      console.log("completement raté");
+    }
+  };
+
   return (
     <>
       <div className="container">
@@ -91,6 +104,7 @@ function Home() {
           <RaidRecap />
         </div>
       </div>
+      <button onClick={getPlayers}>CLICKME</button>
     </>
   );
 }
