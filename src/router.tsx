@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 
 function Router() {
   return (
-    <BrowserRouter basename="/Split-compos">
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<Home />} />
       </Routes>
